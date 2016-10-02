@@ -15,7 +15,8 @@
   "dependencies": {
     "botkit": "^0.2.2",
     "dotenv": "^2.0.0",
-    "got": "^6.5.0"
+    "got": "^6.5.0",
+    "winston": "^2.2.0"
   },
   "devDependencies": {
     "eslint": "^3.7.0",
