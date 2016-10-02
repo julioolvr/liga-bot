@@ -5,7 +5,10 @@
   "main": "index.js",
   "scripts": {
     "start": "NODE_PATH=lib nodemon index.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "pretest": "npm run lint",
+    "lint-init": "eslint --init",
+    "lint": "eslint index.js lib/"
   },
   "author": "",
   "license": "ISC",
@@ -15,6 +18,7 @@
     "got": "^6.5.0"
   },
   "devDependencies": {
+    "eslint": "^3.7.0",
     "nodemon": "^1.10.2"
   }
 }
